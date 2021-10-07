@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC503703270F273400F49511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC503702270F273400F49511 /* AppDelegate.swift */; };
+		DC503705270F273400F49511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC503704270F273400F49511 /* ContentView.swift */; };
+		DC503708270F273400F49511 /* EasyClip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC503706270F273400F49511 /* EasyClip.xcdatamodeld */; };
+		DC50370A270F273700F49511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC503709270F273700F49511 /* Assets.xcassets */; };
+		DC50370D270F273700F49511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC50370C270F273700F49511 /* Preview Assets.xcassets */; };
+		DC503710270F273700F49511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC50370E270F273700F49511 /* Main.storyboard */; };
+		DC50371C270F273700F49511 /* EasyClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50371B270F273700F49511 /* EasyClipTests.swift */; };
+		DC503727270F273700F49511 /* EasyClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC503726270F273700F49511 /* EasyClipUITests.swift */; };
+		DC50373E270F2B4F00F49511 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DC50373D270F2B4F00F49511 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC503718270F273700F49511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5036F7270F273400F49511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5036FE270F273400F49511;
+			remoteInfo = EasyClip;
+		};
+		DC503723270F273700F49511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5036F7270F273400F49511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5036FE270F273400F49511;
+			remoteInfo = EasyClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5036FF270F273400F49511 /* EasyClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC503702270F273400F49511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC503704270F273400F49511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC503707270F273400F49511 /* EasyClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyClip.xcdatamodel; sourceTree = "<group>"; };
+		DC503709270F273700F49511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC50370C270F273700F49511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC50370F270F273700F49511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC503711270F273700F49511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC503712270F273700F49511 /* EasyClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyClip.entitlements; sourceTree = "<group>"; };
+		DC503717270F273700F49511 /* EasyClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC50371B270F273700F49511 /* EasyClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyClipTests.swift; sourceTree = "<group>"; };
+		DC50371D270F273700F49511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC503722270F273700F49511 /* EasyClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC503726270F273700F49511 /* EasyClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyClipUITests.swift; sourceTree = "<group>"; };
+		DC503728270F273700F49511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5036FC270F273400F49511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC50373E270F2B4F00F49511 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC503714270F273700F49511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC50371F270F273700F49511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5036F6270F273400F49511 = {
+			isa = PBXGroup;
+			children = (
+				DC503701270F273400F49511 /* EasyClip */,
+				DC50371A270F273700F49511 /* EasyClipTests */,
+				DC503725270F273700F49511 /* EasyClipUITests */,
+				DC503700270F273400F49511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC503700270F273400F49511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5036FF270F273400F49511 /* EasyClip.app */,
+				DC503717270F273700F49511 /* EasyClipTests.xctest */,
+				DC503722270F273700F49511 /* EasyClipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC503701270F273400F49511 /* EasyClip */ = {
+			isa = PBXGroup;
+			children = (
+				DC503712270F273700F49511 /* EasyClip.entitlements */,
+				DC503702270F273400F49511 /* AppDelegate.swift */,
+				DC503704270F273400F49511 /* ContentView.swift */,
+				DC503737270F276E00F49511 /* Store */,
+				DC503738270F278600F49511 /* Supporting Files */,
+				DC50370B270F273700F49511 /* Preview Content */,
+			);
+			path = EasyClip;
+			sourceTree = "<group>";
+		};
+		DC50370B270F273700F49511 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC50370C270F273700F49511 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC50371A270F273700F49511 /* EasyClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC50371B270F273700F49511 /* EasyClipTests.swift */,
+				DC50371D270F273700F49511 /* Info.plist */,
+			);
+			path = EasyClipTests;
+			sourceTree = "<group>";
+		};
+		DC503725270F273700F49511 /* EasyClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC503726270F273700F49511 /* EasyClipUITests.swift */,
+				DC503728270F273700F49511 /* Info.plist */,
+			);
+			path = EasyClipUITests;
+			sourceTree = "<group>";
+		};
+		DC503737270F276E00F49511 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				DC503706270F273400F49511 /* EasyClip.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		DC503738270F278600F49511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC503709270F273700F49511 /* Assets.xcassets */,
+				DC50370E270F273700F49511 /* Main.storyboard */,
+				DC503711270F273700F49511 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5036FE270F273400F49511 /* EasyClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC50372B270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClip" */;
+			buildPhases = (
+				DC5036FB270F273400F49511 /* Sources */,
+				DC5036FC270F273400F49511 /* Frameworks */,
+				DC5036FD270F273400F49511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyClip;
+			packageProductDependencies = (
+				DC50373D270F2B4F00F49511 /* Alamofire */,
+			);
+			productName = EasyClip;
+			productReference = DC5036FF270F273400F49511 /* EasyClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC503716270F273700F49511 /* EasyClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC50372E270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClipTests" */;
+			buildPhases = (
+				DC503713270F273700F49511 /* Sources */,
+				DC503714270F273700F49511 /* Frameworks */,
+				DC503715270F273700F49511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC503719270F273700F49511 /* PBXTargetDependency */,
+			);
+			name = EasyClipTests;
+			productName = EasyClipTests;
+			productReference = DC503717270F273700F49511 /* EasyClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC503721270F273700F49511 /* EasyClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC503731270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClipUITests" */;
+			buildPhases = (
+				DC50371E270F273700F49511 /* Sources */,
+				DC50371F270F273700F49511 /* Frameworks */,
+				DC503720270F273700F49511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC503724270F273700F49511 /* PBXTargetDependency */,
+			);
+			name = EasyClipUITests;
+			productName = EasyClipUITests;
+			productReference = DC503722270F273700F49511 /* EasyClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5036F7270F273400F49511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DC5036FE270F273400F49511 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DC503716270F273700F49511 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC5036FE270F273400F49511;
+					};
+					DC503721270F273700F49511 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC5036FE270F273400F49511;
+					};
+				};
+			};
+			buildConfigurationList = DC5036FA270F273400F49511 /* Build configuration list for PBXProject "EasyClip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5036F6270F273400F49511;
+			packageReferences = (
+				DC50373C270F2B4F00F49511 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = DC503700270F273400F49511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5036FE270F273400F49511 /* EasyClip */,
+				DC503716270F273700F49511 /* EasyClipTests */,
+				DC503721270F273700F49511 /* EasyClipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5036FD270F273400F49511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC503710270F273700F49511 /* Main.storyboard in Resources */,
+				DC50370D270F273700F49511 /* Preview Assets.xcassets in Resources */,
+				DC50370A270F273700F49511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC503715270F273700F49511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC503720270F273700F49511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5036FB270F273400F49511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC503705270F273400F49511 /* ContentView.swift in Sources */,
+				DC503708270F273400F49511 /* EasyClip.xcdatamodeld in Sources */,
+				DC503703270F273400F49511 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC503713270F273700F49511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC50371C270F273700F49511 /* EasyClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC50371E270F273700F49511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC503727270F273700F49511 /* EasyClipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC503719270F273700F49511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5036FE270F273400F49511 /* EasyClip */;
+			targetProxy = DC503718270F273700F49511 /* PBXContainerItemProxy */;
+		};
+		DC503724270F273700F49511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5036FE270F273400F49511 /* EasyClip */;
+			targetProxy = DC503723270F273700F49511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC50370E270F273700F49511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC50370F270F273700F49511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC503729270F273700F49511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC50372A270F273700F49511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC50372C270F273700F49511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EasyClip/EasyClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyClip/Preview Content\"";
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "EasyClip/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC50372D270F273700F49511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EasyClip/EasyClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyClip/Preview Content\"";
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "EasyClip/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC50372F270F273700F49511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = EasyClipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyClip.app/Contents/MacOS/EasyClip";
+			};
+			name = Debug;
+		};
+		DC503730270F273700F49511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = EasyClipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyClip.app/Contents/MacOS/EasyClip";
+			};
+			name = Release;
+		};
+		DC503732270F273700F49511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = EasyClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EasyClip;
+			};
+			name = Debug;
+		};
+		DC503733270F273700F49511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = EasyClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhizhangyi.EasyClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EasyClip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5036FA270F273400F49511 /* Build configuration list for PBXProject "EasyClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC503729270F273700F49511 /* Debug */,
+				DC50372A270F273700F49511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC50372B270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC50372C270F273700F49511 /* Debug */,
+				DC50372D270F273700F49511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC50372E270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC50372F270F273700F49511 /* Debug */,
+				DC503730270F273700F49511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC503731270F273700F49511 /* Build configuration list for PBXNativeTarget "EasyClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC503732270F273700F49511 /* Debug */,
+				DC503733270F273700F49511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC50373C270F2B4F00F49511 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC50373D270F2B4F00F49511 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC50373C270F2B4F00F49511 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DC503706270F273400F49511 /* EasyClip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC503707270F273400F49511 /* EasyClip.xcdatamodel */,
+			);
+			currentVersion = DC503707270F273400F49511 /* EasyClip.xcdatamodel */;
+			path = EasyClip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC5036F7270F273400F49511 /* Project object */;
+}
