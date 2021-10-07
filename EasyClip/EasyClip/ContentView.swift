@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView(content: {
-            NavigationLink(destination: Text("Destination")) {
+            NavigationLink(destination: Text("Clip")) {
                 Text("Hello, World!")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
