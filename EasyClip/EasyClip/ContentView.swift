@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        NavigationView(content: {
+            NavigationLink(destination: Text("Destination")) {
+                Text("Hello, World!")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        })
     }
 }
 
