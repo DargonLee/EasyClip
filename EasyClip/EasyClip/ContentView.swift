@@ -3,7 +3,7 @@
 //  EasyClip
 //
 //  Created by Harlan on 2021/10/7.
-// 
+//  
 
 import SwiftUI
 
