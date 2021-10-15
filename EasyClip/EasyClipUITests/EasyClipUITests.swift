@@ -2,7 +2,7 @@
 //  EasyClipUITests.swift
 //  EasyClipUITests
 //
-//  Created by Harlan on 2021/10/7.
+//  Created by Harlans on 2021/10/15.
 //
 
 import XCTest
@@ -32,7 +32,7 @@ class EasyClipUITests: XCTestCase {
     }
 
     func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()

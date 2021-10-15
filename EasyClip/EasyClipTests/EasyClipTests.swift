@@ -2,7 +2,7 @@
 //  EasyClipTests.swift
 //  EasyClipTests
 //
-//  Created by Harlan on 2021/10/7.
+//  Created by Harlans on 2021/10/15.
 //
 
 import XCTest
@@ -16,7 +16,6 @@ class EasyClipTests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        print("---")
     }
 
     func testExample() throws {
