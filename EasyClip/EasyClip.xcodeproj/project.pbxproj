@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DA1ACC275F36FA009A8908 /* Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1ACB275F36FA009A8908 /* Clipboard.swift */; };
 		18EDCD85271912A800489777 /* EasyClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDCD84271912A800489777 /* EasyClipApp.swift */; };
 		18EDCD87271912A800489777 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDCD86271912A800489777 /* ContentView.swift */; };
 		18EDCD89271912A900489777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDCD88271912A900489777 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18DA1ACB275F36FA009A8908 /* Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard.swift; sourceTree = "<group>"; };
 		18EDCD81271912A800489777 /* EasyClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDCD84271912A800489777 /* EasyClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyClipApp.swift; sourceTree = "<group>"; };
 		18EDCD86271912A800489777 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DA1ACA275F35D9009A8908 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DA1ACB275F36FA009A8908 /* Clipboard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		18EDCD78271912A800489777 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 				18EDCD93271912A900489777 /* EasyClip.entitlements */,
 				18EDCD84271912A800489777 /* EasyClipApp.swift */,
 				18EDCD86271912A800489777 /* ContentView.swift */,
+				18DA1ACA275F35D9009A8908 /* Models */,
 				18EDCDB6271912E400489777 /* CoreData */,
 				18EDCDB5271912CD00489777 /* Supporting Files */,
 				18EDCD8A271912A900489777 /* Preview Content */,
@@ -285,6 +296,7 @@
 			files = (
 				18EDCD8E271912A900489777 /* Persistence.swift in Sources */,
 				18EDCD87271912A800489777 /* ContentView.swift in Sources */,
+				18DA1ACC275F36FA009A8908 /* Clipboard.swift in Sources */,
 				18EDCD85271912A800489777 /* EasyClipApp.swift in Sources */,
 				18EDCD91271912A900489777 /* EasyClip.xcdatamodeld in Sources */,
 			);
